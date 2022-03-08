@@ -1,0 +1,114 @@
+/* Typography */
+
+body {
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
+    margin: 3em;
+}
+
+p {
+    line-height: 1.25em;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+    padding-bottom: .2em;
+}
+
+a, a:visited {
+    color: blue;
+}
+
+strong {
+    font-size: 1.1em;
+}
+
+/* Global */
+
+section {
+    padding-bottom: .25em;
+}
+
+.right {
+    float: right;
+}
+
+/* Personal Info Section */
+
+.personal-info { text-align: center; }
+
+.name {
+    font-size: 1.75em;
+    margin: 0 .25em 0 0;
+    text-align: center;
+}
+
+.title { text-align: center; }
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+}
+
+.links li:first-child { list-style: none; }
+
+.links li {
+    margin: .75em;
+    padding: 0em;
+}
+
+/* Skills Section */
+
+.skills dl dt {
+    font-weight: 800;
+}
+
+.skills dl dd {
+    padding: .5em 0 1em 0;
+}
+
+/* Work Experience */
+
+.pad {
+    padding-top: 2em;
+}
+
+.position-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.position-info li:first-child {
+    list-style: none;
+    margin-left: 0;
+}
+
+.position-info li {
+    margin: 0 .75em;
+    padding: 0;
+}
+
+
+
+/* Awards */
+
+.awards dl dd {
+    padding: .5em 0 1em 0;
+}
+
+
+@media print {
+    body {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    a, a:visited {
+        color: black;
+        text-decoration: none;
+    }
+ }
